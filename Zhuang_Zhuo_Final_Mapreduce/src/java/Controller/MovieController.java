@@ -20,19 +20,17 @@ import org.springframework.web.servlet.mvc.Controller;
 public class MovieController implements Controller{
 
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
-       
                    String type = request.getParameter("type");
-                   
                    ModelAndView mv = new ModelAndView();
                    if(type.equals("map1")){
                 mv.setViewName("cancela");
                    }
                  else{
                          if(type.equals("map2")){
-                           mv.setViewName("delay");
+                            mv.setViewName("delay");
                          }else
                          {
-                        mv.setViewName("top30delay");
+                            mv.setViewName("top30delay");
                          }
                          }
         
