@@ -5,7 +5,7 @@
 
 ### [Zhuang_Zhuo_Final.pdf](Airline_bigdata_analysis/Zhuang_Zhuo_Final.pdf)
 A full introduction of the whole project.
-all the codes are attached in the file.
+All the codes are attached in the file.
 
 ### [Zhuang_Zhuo_Final_Mapreduce](Airline_bigdata_analysis/Zhuang_Zhuo_Final_Mapreduce/)
 A web service, using Java servlet and RESTful API, Bootstrap, d3.js to visualize the analysis result
